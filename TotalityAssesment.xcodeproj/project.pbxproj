@@ -11,6 +11,15 @@
 		BFA42A7F2AC45723002FAE1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42A7E2AC45723002FAE1F /* ContentView.swift */; };
 		BFA42A812AC45725002FAE1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA42A802AC45725002FAE1F /* Assets.xcassets */; };
 		BFA42A842AC45725002FAE1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA42A832AC45725002FAE1F /* Preview Assets.xcassets */; };
+		BFA42A8C2AC45788002FAE1F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42A8B2AC45788002FAE1F /* CardView.swift */; };
+		BFA42A8F2AC457C8002FAE1F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42A8E2AC457C8002FAE1F /* User.swift */; };
+		BFA42A912AC45810002FAE1F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42A902AC45810002FAE1F /* HomeView.swift */; };
+		BFA42A932AC45849002FAE1F /* CardExpandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42A922AC45849002FAE1F /* CardExpandView.swift */; };
+		BFA42A952AC458EC002FAE1F /* PayButtonPressedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42A942AC458EC002FAE1F /* PayButtonPressedView.swift */; };
+		BFA42A972AC4591A002FAE1F /* SheetViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42A962AC4591A002FAE1F /* SheetViewOne.swift */; };
+		BFA42A992AC45948002FAE1F /* SheetViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42A982AC45948002FAE1F /* SheetViewTwo.swift */; };
+		BFA42A9B2AC459E1002FAE1F /* SheetViewThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42A9A2AC459E1002FAE1F /* SheetViewThree.swift */; };
+		BFA42A9D2AC45AF2002FAE1F /* PayButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA42A9C2AC45AF2002FAE1F /* PayButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		BFA42A7E2AC45723002FAE1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFA42A802AC45725002FAE1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA42A832AC45725002FAE1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFA42A8B2AC45788002FAE1F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BFA42A8E2AC457C8002FAE1F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BFA42A902AC45810002FAE1F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BFA42A922AC45849002FAE1F /* CardExpandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardExpandView.swift; sourceTree = "<group>"; };
+		BFA42A942AC458EC002FAE1F /* PayButtonPressedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayButtonPressedView.swift; sourceTree = "<group>"; };
+		BFA42A962AC4591A002FAE1F /* SheetViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewOne.swift; sourceTree = "<group>"; };
+		BFA42A982AC45948002FAE1F /* SheetViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewTwo.swift; sourceTree = "<group>"; };
+		BFA42A9A2AC459E1002FAE1F /* SheetViewThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewThree.swift; sourceTree = "<group>"; };
+		BFA42A9C2AC45AF2002FAE1F /* PayButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,8 @@
 		BFA42A7B2AC45723002FAE1F /* TotalityAssesment */ = {
 			isa = PBXGroup;
 			children = (
+				BFA42A8D2AC457B0002FAE1F /* Model */,
+				BFA42A8A2AC45730002FAE1F /* View */,
 				BFA42A7C2AC45723002FAE1F /* TotalityAssesmentApp.swift */,
 				BFA42A7E2AC45723002FAE1F /* ContentView.swift */,
 				BFA42A802AC45725002FAE1F /* Assets.xcassets */,
@@ -65,6 +85,29 @@
 				BFA42A832AC45725002FAE1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFA42A8A2AC45730002FAE1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFA42A8B2AC45788002FAE1F /* CardView.swift */,
+				BFA42A902AC45810002FAE1F /* HomeView.swift */,
+				BFA42A922AC45849002FAE1F /* CardExpandView.swift */,
+				BFA42A942AC458EC002FAE1F /* PayButtonPressedView.swift */,
+				BFA42A962AC4591A002FAE1F /* SheetViewOne.swift */,
+				BFA42A982AC45948002FAE1F /* SheetViewTwo.swift */,
+				BFA42A9A2AC459E1002FAE1F /* SheetViewThree.swift */,
+				BFA42A9C2AC45AF2002FAE1F /* PayButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFA42A8D2AC457B0002FAE1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFA42A8E2AC457C8002FAE1F /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +180,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA42A932AC45849002FAE1F /* CardExpandView.swift in Sources */,
+				BFA42A9B2AC459E1002FAE1F /* SheetViewThree.swift in Sources */,
+				BFA42A8F2AC457C8002FAE1F /* User.swift in Sources */,
 				BFA42A7F2AC45723002FAE1F /* ContentView.swift in Sources */,
+				BFA42A972AC4591A002FAE1F /* SheetViewOne.swift in Sources */,
+				BFA42A9D2AC45AF2002FAE1F /* PayButtonView.swift in Sources */,
+				BFA42A8C2AC45788002FAE1F /* CardView.swift in Sources */,
+				BFA42A992AC45948002FAE1F /* SheetViewTwo.swift in Sources */,
+				BFA42A912AC45810002FAE1F /* HomeView.swift in Sources */,
+				BFA42A952AC458EC002FAE1F /* PayButtonPressedView.swift in Sources */,
 				BFA42A7D2AC45723002FAE1F /* TotalityAssesmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
